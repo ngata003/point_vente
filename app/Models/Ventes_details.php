@@ -14,6 +14,8 @@ class Ventes_details extends Model
         'qte_commandee',
         'total',
         'id_vente',
+        'nom_gestionnaire',
+        'nom_boutique'
     ];
 
     public function vente()

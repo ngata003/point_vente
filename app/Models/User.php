@@ -22,6 +22,7 @@ class User extends Authenticatable
         'email',
         'password',
         'role',
+        'type',
         'contact',
         'image_utilisateur',
         'boutique_created',
